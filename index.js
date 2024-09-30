@@ -138,4 +138,5 @@ app.get('/check-company', (req, res) => {
 // Iniciar o servidor
 app.listen(port, () => {
     console.log(`Servidor está rodando em http://localhost:${port}`);
+    console.log(`FUNCIONOU`);
 });
